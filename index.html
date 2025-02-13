@@ -3,7 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script type="module" src="/src/clock.jsx"></script>
+        <!-- React and ReactDOM from CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/react@18/umd/react.production.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/react-dom@18/umd/react-dom.production.min.js"></script>
+    <!-- Babel Compiler for JSX -->
+    <script src="https://cdn.jsdelivr.net/npm/@babel/standalone"></script>
+    <script type="text/bable" src="/src/clock.jsx"></script>
   </head>
   <body>
     <div class="container" id="root"></div>
