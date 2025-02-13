@@ -5,10 +5,19 @@ const BgFromUrl = () => {
     useEffect(() => {
         const urlParams = new URLSearchParams(window.location.search);
 
+
         // Fetch the bg, color-scheme, brightness, and position parameters
         const imageParam = urlParams.get('bg'); // Example: ?bg=yourBase64StringOrURL
         const colorScheme = urlParams.get('color-scheme'); // Example: ?color-scheme=dark or light
         const position = urlParams.get('position'); // Example: ?position=top, center, or bottom
+        let         size = urlParams.get('size');
+        if (!(size >= 7)){
+            size = 10;
+        }
+
+        var r = document.querySelector(':root');
+
+        r.style.setProperty('--clock-size',  (size * 0.1) + 'rem')
 
         // Set the background image (base64 or URL)
         if (imageParam) {

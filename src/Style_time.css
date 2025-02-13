@@ -36,7 +36,7 @@ body.light-mode {
 
 
 .container {
-  margin: 10%;
+  margin: 2.5%;
   display: flex;
   gap: var(--clock-gap);
 }
