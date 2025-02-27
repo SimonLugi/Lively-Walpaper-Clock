@@ -1,8 +1,21 @@
-# React + Vite
+# Million Times Mini Clock Concept
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my Aproche on how to create the Million Times Mini Clock Concept
 
-Currently, two official plugins are available:
+I rewrote the entire [Million Times Mini Clock Concept](https://codepen.io/vineethtrv/pen/ogvmWVN) in react and addet bonus features to it.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+
+If you want to combine multiple tags in the URL, use `?` for the first tag and `&` for any additional tags.
+
+For example:
+- First tag: `?bg=URL`
+- Additional tags: `&color-scheme=dark&size=8`
+
+| Property               | Value Description                           |
+|------------------------|---------------------------------------------|
+| Custom Background Image | `?bg= "Background image URL"`              |
+| Bright or Dark theme    | `?color-scheme= bright / dark`              |
+| Size                   | `?size= value between 5-10`                 |
+| Position               | `?position= top / center / bottom`          |
+---
