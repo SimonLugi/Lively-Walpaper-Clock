@@ -8,6 +8,8 @@ I rewrote the entire [Million Times Mini Clock Concept](https://codepen.io/vinee
 
 If you want to combine multiple tags in the URL, use `?` for the first tag and `&` for any additional tags.
 
+Accesable via https://themodcraft.net/time
+
 For example:
 - First tag: `?bg=URL`
 - Additional tags: `&color-scheme=dark&size=8`
